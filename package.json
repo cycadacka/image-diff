@@ -1,0 +1,19 @@
+{
+  "name": "image-diff",
+  "version": "1.0.0-alpha",
+  "description": "Computes and displays the differences between two images using the Canvas API.",
+  "main": "./index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/marahuyo/image-diff.git"
+  },
+  "author": "marahuyo",
+  "license": "GPL-3.0-or-later",
+  "bugs": {
+    "url": "https://github.com/marahuyo/image-diff/issues"
+  },
+  "homepage": "https://github.com/marahuyo/image-diff#readme"
+}
