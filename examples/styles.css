@@ -1,0 +1,17 @@
+.diff-sample {
+  display: grid;
+  align-items: center;
+  justify-items: center;
+  row-gap: 1rem;
+  grid-template-columns: repeat(5, auto);
+}
+
+.diff-sample p {
+  font-size: 5rem;
+}
+
+.diff-sample img {
+  width: 25rem;
+  height: auto;
+  border: 1px black solid;
+}
