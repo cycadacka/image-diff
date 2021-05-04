@@ -1,12 +1,12 @@
 (function (root, factory) {
   if (typeof exports === "object" && typeof module === "object") {
-    module.exports = factory();
+    // TODO: Support npm... without node-canvas since it's hard to install in Windows 10.
   } else if (typeof define === "function" && define.amd) {
-    define(factory(document));
+    define(factory());
   } else if (typeof exports === "object") {
-    exports["imageDiff"] = factory(document);
+    exports["imageDiff"] = factory();
   } else {
-    root["imageDiff"] = factory(document);
+    root["imageDiff"] = factory();
   }
 })(self, function () {
   /**
